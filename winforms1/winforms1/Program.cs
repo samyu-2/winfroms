@@ -20,7 +20,8 @@ namespace winforms1
             //Application.Run(new Checkbox());
             //Application.Run(new Colourdialog());
             //Application.Run(new Comboboxes());
-            Application.Run(new LabelAndDayTimePicker());
+            //Application.Run(new LabelAndDayTimePicker());
+            Application.Run(new TextboxandPictureBox());
         }
     }
 }

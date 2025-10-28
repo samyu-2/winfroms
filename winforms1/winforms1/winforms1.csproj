@@ -58,6 +58,12 @@
     <Compile Include="Checkbox.Designer.cs">
       <DependentUpon>Checkbox.cs</DependentUpon>
     </Compile>
+    <Compile Include="Colourdialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Colourdialog.Designer.cs">
+      <DependentUpon>Colourdialog.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Button.resx">
@@ -65,6 +71,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Checkbox.resx">
       <DependentUpon>Checkbox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Colourdialog.resx">
+      <DependentUpon>Colourdialog.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

@@ -17,7 +17,8 @@ namespace winforms1
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             //Application.Run(new Button());
-            Application.Run(new Checkbox());
+            //Application.Run(new Checkbox());
+            Application.Run(new Colourdialog());
         }
     }
 }

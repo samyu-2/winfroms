@@ -1,6 +1,6 @@
 ﻿namespace winforms1
 {
-    partial class Form1
+    partial class Button
     {
         /// <summary>
         /// Required designer variable.

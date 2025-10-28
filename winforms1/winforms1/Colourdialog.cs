@@ -22,8 +22,8 @@ namespace winforms1
             DialogResult result =  colorDialog1.ShowDialog();
             if(result == DialogResult.OK)
             {
-                //button1.BackColor = colorDialog1.Color;  //changes button colour
-                BackColor = colorDialog1.Color;  //changes background colour
+                button1.BackColor = colorDialog1.Color;  //changes button colour
+                //BackColor = colorDialog1.Color;  //changes background colour
             }
         }
     }

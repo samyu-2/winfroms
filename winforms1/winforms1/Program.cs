@@ -18,7 +18,8 @@ namespace winforms1
             Application.SetCompatibleTextRenderingDefault(false);
             //Application.Run(new Button());
             //Application.Run(new Checkbox());
-            Application.Run(new Colourdialog());
+            //Application.Run(new Colourdialog());
+            Application.Run(new Comboboxes());
         }
     }
 }

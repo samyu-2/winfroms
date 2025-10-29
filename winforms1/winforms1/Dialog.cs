@@ -127,5 +127,20 @@ namespace winforms1
             // Check if more pages are needed
             e.HasMorePages = currentLineIndex < linesToPrint.Length;
         }
+
+        private void cutToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Cut");
+        }
+
+        private void copyToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Copy");
+        }
+
+        private void pasteToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Paste");
+        }
     }
 }

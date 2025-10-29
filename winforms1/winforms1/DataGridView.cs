@@ -56,5 +56,10 @@ namespace winforms1
         {
             Application.Exit();
         }
+
+        private void webBrowser1_Navigated(object sender, WebBrowserNavigatedEventArgs e)
+        {
+            textBox1.Text = webBrowser1.Url.ToString();
+        }
     }
 }

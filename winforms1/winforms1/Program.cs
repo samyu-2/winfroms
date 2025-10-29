@@ -22,7 +22,8 @@ namespace winforms1
             //Application.Run(new Comboboxes());
             //Application.Run(new LabelAndDayTimePicker());
             //Application.Run(new TextboxandPictureBox());
-            Application.Run(new RadioButtonandProgressBar());
+            //Application.Run(new RadioButtonandProgressBar());
+            Application.Run(new MessageBoxandGoupBox());
         }
     }
 }

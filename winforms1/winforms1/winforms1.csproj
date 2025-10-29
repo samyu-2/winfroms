@@ -76,6 +76,12 @@
     <Compile Include="LabelAndDayTimePicker.Designer.cs">
       <DependentUpon>LabelAndDayTimePicker.cs</DependentUpon>
     </Compile>
+    <Compile Include="MessageBoxandGoupBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MessageBoxandGoupBox.Designer.cs">
+      <DependentUpon>MessageBoxandGoupBox.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RadioButtonandProgressBar.cs">
@@ -104,6 +110,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="LabelAndDayTimePicker.resx">
       <DependentUpon>LabelAndDayTimePicker.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MessageBoxandGoupBox.resx">
+      <DependentUpon>MessageBoxandGoupBox.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

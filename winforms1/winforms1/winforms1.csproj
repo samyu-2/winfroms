@@ -70,6 +70,12 @@
     <Compile Include="Comboboxes.Designer.cs">
       <DependentUpon>Comboboxes.cs</DependentUpon>
     </Compile>
+    <Compile Include="ErrorProvider.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ErrorProvider.Designer.cs">
+      <DependentUpon>ErrorProvider.cs</DependentUpon>
+    </Compile>
     <Compile Include="LabelAndDayTimePicker.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -107,6 +113,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Comboboxes.resx">
       <DependentUpon>Comboboxes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ErrorProvider.resx">
+      <DependentUpon>ErrorProvider.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LabelAndDayTimePicker.resx">
       <DependentUpon>LabelAndDayTimePicker.cs</DependentUpon>

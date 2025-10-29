@@ -25,7 +25,8 @@ namespace winforms1
             //Application.Run(new RadioButtonandProgressBar());
             //Application.Run(new MessageBoxandGoupBox());
             //Application.Run(new ErrorProvider());
-            Application.Run(new DataGridView());
+            //Application.Run(new DataGridView());
+            Application.Run(new Dialog());
         }
     }
 }

@@ -51,7 +51,7 @@ namespace winforms1
 
         private void button2_Click(object sender, EventArgs e)
         {
-            //user_icon1 must be there in bin -> debugg folder
+            //user_icon1 must be there in bin -> debug folder
             pictureBox3.Load("user_icon1.png");
             pictureBox4.Image = Image.FromFile("user_icon1.png"); 
         }
